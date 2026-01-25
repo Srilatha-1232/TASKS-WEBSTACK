@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Feedback Form</title>
+    </head>
+    <body>
+        <h1>Feedback Form</h1>
+
+        <label for="user">Name:</label>
+        <input type="text" id="user" placeholder="enter your name" required/>
+        <br/><br/>
+        <label for="email">Email:</label>
+        <input type="text" id="email" placeholder="enter your Email"  pattern="[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[a-zA-Z]{2\}" required/>
+        <br/><br/>
+        <fieldset>
+            <legend>Rate Us:</legend>
+<input type="radio" name="none" id="Excellent" value="Excellent"/>
+<label for="Excellent">Excellent</label>
+<input type="radio" name="none" id="Good" value="Good"/>
+<label for="Good">Good</label>
+<input type="radio" name="none" id="Poor" value="Poor"/> 
+<label for="Poor">Poor</label>           
+        </fieldset>   
+
+        <p>Comments :</p> 
+        <textarea rows="10" cols="30">
+
+        </textarea>
+<br/><br/>
+        <button>Submit Feedback</button>
+        <br/><br/>
+    </body>
+</html>

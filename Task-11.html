@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration_Page|| TASK - 11</title>
+    </head>
+    <body>
+        <h1>Registration Form</h1>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" required/>
+<br/><br/>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" required/>
+<br/><br/>
+        <label for="email">Emial:</label>
+        <input type="text" id="Email" pattern="[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[a-zA-Z]{2\}" placeholder="Email"  required/>
+<br/><br/>
+        <label for="pass">Password:</label>
+        <input type="password" id="pass" value=".........." required/>
+<br/><br/>
+        <label for="Cpass">Confirm Passwod:</label>
+        <input type="password" id="Cpass" value=".........." required/>
+<br/><br/>
+        <fieldset>
+            <legend>Feildset</legend>
+            <label>Gender:</label>
+            
+            <input type="radio" id="Male" name="Gender" value="Male"/>
+            <label for="Male">Male</label>
+            <input type="radio" id="female" name="Gender" value="female"/>
+            <label for="Female">Female</label>
+        </fieldset>
+<br/>
+        <input type="checkbox" name="terms" value="conditions" id="terms&conditions"/>
+        <label for="terms&conditions">I agree to the Terms and conditions</label>
+<br/><br/>
+        <button>Register</button>
+    </body>
+</html>
